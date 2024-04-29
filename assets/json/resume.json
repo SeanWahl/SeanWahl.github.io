@@ -38,11 +38,11 @@
     {
       "institution": "California Polytechnic State University",
       "location": "San Luis Obispo, California",
-      "area": "Mechanical Engineering, concentration in Mechatronics",
+      "area": "Mechanical Engineering",
       "studyType": "B.S.",
-      "startDate": "2019-09-17",
-      "endDate": "2023-12-16",
-      "courses": ["Design for Strength and Stiffness", "Mechanical Control System Design", "Mechatronics"]
+      "startDate": "2019",
+      "endDate": "2023",
+      "courses": ["Concentration in Mechatronics"]
     }
   ],
   "awards": [
