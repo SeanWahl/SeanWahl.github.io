@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://seanwahl.github.io/al-folio/sitemap.xml
+Sitemap: https://seanwahl.github.io/sitemap.xml
