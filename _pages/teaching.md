@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /coursework/
-title: Coursework
-description: Top courses that I took at Cal Poly. Lots of valuable information here!
-nav: false
+permalink: /teaching/
+title: teaching
+description: Materials for courses you taught. Replace this text with your description.
+nav: true
 nav_order: 6
 ---
 

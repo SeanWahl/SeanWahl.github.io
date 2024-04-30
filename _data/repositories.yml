@@ -1,7 +1,12 @@
 github_users:
-  - SeanWahl
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - seanwahl.github.io
-  - ME-507-Portfolio
-  - ME405_TermProject
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
