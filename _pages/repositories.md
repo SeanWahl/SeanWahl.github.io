@@ -2,9 +2,9 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: I don't use github too much for personal projects (for better or for worse), but here are some I've done in the past.
+description: I don't use GitHub too much for personal projects (for better or for worse), but here are some I've done in the past.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 ## GitHub users
