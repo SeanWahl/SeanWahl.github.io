@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: Bachelor's Degree
-      institution: California Polytechnic State University at San Luis Obispo
+      institution: Cal Poly SLO
       year: 2019-2023
       description:
         - title: Mechanical Engineering
@@ -20,12 +20,14 @@
             - concentration in Mechatronics
         - Summa Cum Laude
 
-    - title: High School Degree
+    - title: High School Diploma
       institution: San Pasqual High School
       year: 2015-2019
       description:
-        - 4.5 Weighted GPA
         - Valedictory Circle
+        - Red Cross Club
+        - Math and Science Club
+        - Academic League
 
 - title: Work Experience
   type: time_table
@@ -57,7 +59,7 @@
             - Planned and conducted testing to observe model's accuracy
 
     - title: Mechatronics Student Researcher
-      institution: California Polytechnic State University at San Luis Obispo
+      institution: Cal Poly SLO
       year: Summer 2022
       description:
         - Collaborated with two peers to model and simulate single-legged robotic hopping to lay groundwork for experimentation on test-stand, providing a learning aid to Cal Poly's Mechatronics program
@@ -80,7 +82,7 @@
 
     - title: Intern
       institution: Prompt Prototypes
-      year: Summer 2018/2019
+      year: Summer 2018-19
       description:
         - Laser-marked medical parts with important labels, identification numbers, and designations
         - Passivated parts to ensure no rust would form after marking
