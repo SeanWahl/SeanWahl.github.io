@@ -2,96 +2,139 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sean Wahl
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: December 18, 2000
+    - name: Location
+      value: San Diego, CA
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor's Degree
+      institution: California Polytechnic State University at San Luis Obispo
+      year: 2019-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Mechanical Engineering
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - concentration in Mechatronics
+        - Summa Cum Laude
 
-- title: Experience
+    - title: High School Degree
+      institution: San Pasqual High School
+      year: 2015-2019
+      description:
+        - 4.5 Weighted GPA
+        - Valedictory Circle
+
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Thermal Engineering Intern
+      institution: SpaceX
+      year: Summer 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Built basis of Starshield’s program-wide demise analysis (working off of a similar Starlink analysis) to ensure that the vehicles met contractual requirements to avoid harm from reentry debris
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Gave a full-program presentation informing of demise and urging engineers to consider demisability early in their designs
+        - title: Simplified Thermal Desktop model of a space laser for integration into full-satellite model to ensure thermal constraints are met
+          contents:
+            - Consulted with partners (internal and external) to instruct them through use of the model
+        - title: Created Thermal Desktop models for joint interfaces in a simulated test setup to validate thermal conductivity to payload
+          contents: 
+            - Wrote testing procedures for how to go about this validation and how to correlate to the model afterwards
+        - Researched micrometeoroid and orbital debris (MMOD) requirements for Starshield missions in comparison to Starlink to help justify alteration of MMOD shield.
+        - Designated thermal vacuum test procedures to qualify sticker usage constraints and analyzed testing results
+
+    - title: Mechanical Engineering Intern
+      institution: Reliable Robotics Corporation
+      year: Fall 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Designed and installed reinforcements to aircraft empennage for integration of Avionics hardware necessary for autoflight redundancy requirement
+        - Adapted load-sensing design to perform within space and accuracy constraints and verified its mechanical ability to meet the required margins of safety in a flight-critical system
+        - title: Constructed simple thermal model of electronics enclosure to inform design revisions and adhere to hardware limits and maximum operating temperatures
+          contents:
+            - Planned and conducted testing to observe model's accuracy
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Mechatronics Student Researcher
+      institution: California Polytechnic State University at San Luis Obispo
+      year: Summer 2022
       description:
+        - Collaborated with two peers to model and simulate single-legged robotic hopping to lay groundwork for experimentation on test-stand, providing a learning aid to Cal Poly's Mechatronics program
+        - Retrofitted existing test hardware to be compliant with CAN communication and establish required electronics harnessing, enhancing setup functionality
+        - Presented research during engineering symposium to peers and faculty, communicating project findings and results to encourage discussion and promote future development
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: CAD Intern
+      institution: In2Bones/Conmed
+      year: Summer 2022
+      description:
+        - Re-modeled parts from Creo to Solidworks, maintaining an emphasis on feature clarity for future readability during the company's CAD conversion process
+        - Implemented necessary laser etching updatesto accelerate company's conformance to identification standards
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Design Engineering Intern 
+      institution: Cor Medical Ventures
+      year: Summer 2021
+      description:
+        - Designed novel medical instrumentation for surgeons and other professionals in sports medicine that would result in more efficient sgical procedures
+        - Modeled, built, and 3D-printed demonstrational prototypes to assess proposed solutions' proof of concept
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Intern
+      institution: Prompt Prototypes
+      year: Summer 2018/2019
+      description:
+        - Laser-marked medical parts with important labels, identification numbers, and designations
+        - Passivated parts to ensure no rust would form after marking
+        - Filled out quality controlocuments to verify batches of parts were up to standard 
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Relevant Projects
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - All relevant projects are documented better <a href="https://seanwahl.github.io/projects/">here</a>!
+
+- title: Organizations
+  type: time_table
+  contents:
+    - title: Engineering Tour Guide
+      institution: Cal Poly Engineering Ambassadors
+      year: 2021-2023
+      description:
+        - Led quarterly 2-hour tours of the College of Engineering to interested parties, such as prospective students, parents, and industry sponsors
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Computer
+      items:
+        - CAD Software - SolidWorks, Creo, NX, Fusion 360
+        - MatLab and Simulink
+        - Finite Element Analysis (Solidworks and NX)
+        - Python
+        - C/C++
+    - title: Equipment
+      items:
+        - Mill and Lathe
+        - Welding (MIG, TIG, Stick)
+        - Laser etching
+        - 3D Printing
+        - Various MCUs (Raspberry Pi, STM32)
+        - Soldering
+        - Cal Poly Yellow Tag (general machine shop knowledge)
+
+- title: Interests
+  type: nested_list
+  contents:
+    - title: Technical
+      items:
+        - Robotics
+        - Artificial Intelligence
+        - Renewable Energy
+        - Environmental Health
+    - title: Personal
+      items:
+        - Hiking
+        - Camping
+        - Golf
+        - Tennis
+        - Fitness
+        - Board Games
+
