@@ -40,7 +40,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: fase
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -104,7 +104,7 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
-youtube_id: youtube.com/@seanwahl1238 # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: seanwahl1238 # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
