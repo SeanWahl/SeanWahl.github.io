@@ -19,7 +19,7 @@ For my senior project, me and a group of 4 others had to make a light-up, musica
     Here's what the finished product looked like!
 </div>
 
-<p alight="center">
+<p align="center">
     <iframe width="315" height="560" src="https://www.youtube.com/embed/u1-BN-DRcQI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <div class="caption">
