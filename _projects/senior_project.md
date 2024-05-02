@@ -5,15 +5,19 @@ description: Path of Lights and Sounds
 img: assets/img/paththumb.jpg
 importance: 1
 category: school
-related_publications: true
 ---
 
 For my senior project, me and a group of 4 others had to make a step activated, light-up, musical path for the Girl Scouts of California's Central Coast. They wanted a path of 25 tiles to be able to play "Jingle Bells" at their winter wonderland event. This was a really fun project to work on and a great learning opportunity. For full official reports of the project, check <a href="https://digitalcommons.calpoly.edu/mesp/742/">here</a>. For a brief synopsis of the project and what I did on it, continue on!
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/path1.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
     </div>
+    <div class="col">
+      {% include figure.liquid loading="eager" path="assets/img/path1.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+    </div>
+  </div>
 </div>
 <div class="caption">
     Here's what the finished path looked like!
@@ -30,6 +34,7 @@ This was truly a lesson in product design as my group quickly found out. Through
 
 The full team collaborated on the structural design of the tile because if the tile physically broke, the project would be deemed a hazard and complete failure. We sized them in order to support a 300lb adult jumping on the tiles. We also had cost in mind as our budget wasn't huge, and we tried to use budget materials such as aluminum and recycled plastics in large quantities to save money. The trapezoidal shape of the tiles was in order to make the path curve with only one unique tile shape. A single tile was about 1.5ft wide by 2.5ft long.
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/pathjump.jpg" title="tile in use" class="img-fluid rounded z-depth-1" %}
@@ -42,6 +47,7 @@ The full team collaborated on the structural design of the tile because if the t
 As a full team, it took us around 300 hours to fully make all of the tiles requested for the event. It was a test of our team's resolve and definitely taught us a lesson in using the right tools for the job. Using the second best method for a process doesn't sound too bad until you have to do it 240 times. It also gave us an appreciation for what Cal Poly's machine shops provide for free as students.
 
 I headed the electronics design of the tile with another teammate and sourced all electronic components. I fully designed the PCBs used in every tile after iterating through two test versions and updating with my teammates feedback. When ready, we assembled all 30 PCBs ourselves. This was tedious but we prevailed in the end with 30 PCBs running off of Raspberry Pi Picos.
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -60,6 +66,7 @@ I did all the coding by myself and had to troubleshoot many small issues. I code
 The tiles ran off a finite state machine that loaded presets from the last time the tile was used. If the first tile was stepped on during power up, it would send out song information that all other tiles would use and relay down the line. This means that if you need to update the song information, you only had to do so on the first tile. 
 
 I also created a graphical user interface (GUI) to aid in the reprogramming of the tiles for a different song. This also invovled sourcing sound files for a full piano range to be as general as possible in future usage. After going through all of the GUI's prompts, a text file would be created that then gets dropped onto the first tile's file system.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
