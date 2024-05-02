@@ -12,12 +12,11 @@ For my senior project, me and a group of 4 others had to make a step activated, 
 <div class="row">
     <div class="col">
     </div>
-    <div class="col">
-      {% include figure.liquid loading="eager" path="assets/img/path1.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
+    <div class="col-6">
+        {% include figure.liquid loading="eager" path="assets/img/path1.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col">
     </div>
-  </div>
 </div>
 <div class="caption">
     Here's what the finished path looked like!
