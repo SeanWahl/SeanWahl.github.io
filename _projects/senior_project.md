@@ -12,18 +12,16 @@ For my senior project, me and a group of 4 others had to make a light-up, musica
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/path1.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Here's what the finished product looked like!
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe width="315" height="560" src="https://www.youtube.com/embed/u1-BN-DRcQI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+<p alight="center">
+    <iframe width="315" height="560" src="https://www.youtube.com/embed/u1-BN-DRcQI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 <div class="caption">
     And here's it in action!
 </div>
