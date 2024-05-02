@@ -1,12 +1,32 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Senior Project
+description: Path of Lights and Sounds
 img: assets/img/12.jpg
 importance: 1
 category: school
 related_publications: true
 ---
+
+For my senior project, me and a group of 4 others had to make a light-up, musical path for the Girl Scouts of California's Central Coast. This was a really fun project to work on and a great learning opportunity. For full official reports of the project, check <a href="https://digitalcommons.calpoly.edu/mesp/742/">here</a>.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="completed path" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Here's what the finished product looked like!
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="315" height="560" src="https://www.youtube.com/embed/u1-BN-DRcQI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    And here's it in action!
+</div>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
