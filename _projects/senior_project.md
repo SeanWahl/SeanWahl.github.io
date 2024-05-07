@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Senior Project
-description: Path of Lights and Sounds
+title: senior project
+description: path of lights and sounds
 img: assets/img/paththumb.jpg
 importance: 1
 category: school
