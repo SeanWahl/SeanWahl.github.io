@@ -5,6 +5,9 @@ date: 2024-04-25 12:00:00
 description: a small labeling puck
 categories: 3Dprinting
 thumbnail: assets/img/handleused.jpg
+images:
+  compare: true
+  slider: true
 ---
 
 My Dad bought a tap handle with an empty spot for a logo to be placed. To take up the space, I designed a small puck that can be taped inside.

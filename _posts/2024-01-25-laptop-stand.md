@@ -5,6 +5,9 @@ date: 2024-01-25 12:00:00
 description: something to hold my tech
 categories: 3Dprinting
 thumbnail: assets/img/standalone.jpg
+images:
+  compare: true
+  slider: true
 ---
 
 I switched over to using a laptop docking station with two monitors, so I needed a convenient place to store the laptop while it was plugged into the docking station. I also wanted to put my laptop by its side, so I set out to design a vertical laptop stand with two slots for this purpose.

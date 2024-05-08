@@ -5,6 +5,9 @@ date: 2024-02-12 12:00:00
 description: something to hold my power
 categories: 3Dprinting
 thumbnail: assets/img/stripused.jpg
+images:
+  compare: true
+  slider: true
 ---
 
 I taped my power strip to the side of my desk but the tape is not strong enough to hold the strip for a significant amount of time. Instead of buying stronger tape, I wanted to make a clip to help support the power strip.
