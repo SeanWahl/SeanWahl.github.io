@@ -27,7 +27,7 @@ For my senior project, me and a group of 4 others had to make a step activated, 
 
 This was truly a lesson in product design as my group quickly found out. Throughout ideation and prototyping, we constantly had to make our engineering design decisions with user perception, behavior, and safety in mind. We used functional decomposition and quality function deployment to make sure we were on the right track with our prototypes. We considered the design's failure modes, manufacturability, assembly, sourcing, and risks to make sure nothing could go wrong.
 
-The full team collaborated on the structural design of the tile because if the tile physically broke, the project would be deemed a hazard and complete failure. We sized them in order to support a 300lb adult jumping on the tiles. We also had cost in mind as our budget wasn't huge, and we tried to use budget materials such as aluminum and recycled plastics in large quantities to save money. The trapezoidal shape of the tiles was in order to make the path curve with only one unique tile shape. A single tile was about 1.5ft wide by 2.5ft long.
+The full team collaborated on the structural design of the tile because if the tile physically broke, the project would be deemed a hazard and a complete failure. We sized them in order to support a 300lb adult jumping. We also had cost in mind as our budget wasn't huge, and we tried to use cost-effective materials such as aluminum and recycled plastics in large quantities to save money. The trapezoidal shape of the tiles was in order to make the path curve with only one unique tile shape (in order to make manufacturing easier). A single tile was 1.5ft wide by 2.5ft long.
 
 
 <div class="row">
@@ -36,12 +36,12 @@ The full team collaborated on the structural design of the tile because if the t
     </div>
 </div>
 <div class="caption">
-    A single finished tile (foot for scale).
+    A single tile (foot for scale).
 </div>
 
 As a full team, it took us around 300 hours to fully make all of the tiles requested for the event. It was a test of our team's resolve and definitely taught us a lesson in using the right tools for the job. Using the second best method for a process doesn't sound too bad until you have to do it 240 times. It also gave us an appreciation for what Cal Poly's machine shops provide for free as students.
 
-I headed the electronics design of the tile with another teammate and sourced all electronic components. I fully designed the PCBs used in every tile after iterating through two test versions and updating with my teammates feedback. When ready, we assembled all 30 PCBs ourselves. This was tedious but we prevailed in the end with 30 PCBs running off of Raspberry Pi Picos.
+I headed the electronics design of the tile with another teammate and sourced all electronic components. I fully designed the PCBs used in every tile after iterating through two test versions and updating them with my teammate's feedback. When ready, we assembled all 30 PCBs ourselves. This was tedious but we prevailed in the end with 30 PCBs running off of Raspberry Pi Picos.
 
 
 <div class="row justify-content-sm-center">
@@ -58,9 +58,9 @@ I headed the electronics design of the tile with another teammate and sourced al
 
 I did all the coding by myself and had to troubleshoot many small issues. I coded in Circuit Python as it seemed like the most user friendly language to hand off to a non-technical group afterwards. It is very introductory and has a lot of documentation online for help. It was also nice that the Pico appears as a file system when plugged into a computer.
 
-The tiles ran off a finite state machine that loaded presets from the last time the tile was used. If the first tile was stepped on during power up, it would send out song information that all other tiles would use and relay down the line. This means that if you need to update the song information, you only had to do so on the first tile. 
+The tiles ran off a finite state machine that loaded presets from the last time the tile was used. If the first tile was stepped on during power up, it would send out song information that all other tiles would receive and relay down the line. This means that if you need to update the song information, you only had to do so on the first tile. 
 
-I also created a graphical user interface (GUI) to aid in the reprogramming of the tiles for a different song. This also invovled sourcing sound files for a full piano range to be as general as possible in future usage. After going through all of the GUI's prompts, a text file would be created that then gets dropped onto the first tile's file system.
+I also created a graphical user interface (GUI) to aid in the reprogramming of the tiles for a different song. This also invovled sourcing sound files for a full piano range to be as general as possible in future usage. After going through all of the GUI's prompts, a text file would be created that then gets dropped onto the first tile's file system. This was all in an effort to remove the need to ever change the tile's coding, only needing to change the configuration file.
 
 
 <div class="row">
@@ -72,7 +72,7 @@ I also created a graphical user interface (GUI) to aid in the reprogramming of t
     The GUI that helps the user reprogram the tiles for a new song.
 </div>
 
-I also headed testing for the tiles. It was difficult to write concrete engineering tests to be done on this product. I settled on writing tests to verify that the tile meets the needs it set out to. Most of these were covered by a user test group that covered most subjective attributes regarding the tiles. The others were engineered to simulate using the tile, such as an side-impact test with a weighted bucket, a slip test for measuring the traction, and more. The only test that we didn't do that we likely should've would be to take one tile to failure and see what it takes to break it, but due to time and materials we were not able to.
+I also headed testing for the tiles. It was difficult to write concrete engineering tests to be done on this product. I settled on writing tests to verify that the tile meets the needs it set out to. Most of these were covered by a user test group that handled the most subjective attributes regarding the tiles. The others were engineered to simulate using the tile, such as an side-impact test with a weighted bucket, a slip test for measuring the traction, and more. The only test that we didn't do that we likely should've would be to take one tile to ultimate failure. Due to time and materials we were not able to do this.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -83,4 +83,4 @@ I also headed testing for the tiles. It was difficult to write concrete engineer
     The tile being tested by using a swinging bucket for a repeatable side-impact, measuring how much the tile displaced upon repeated impact when staked to the ground.
 </div>
 
-This project was most valuable to me as experience in leading a group and working within the requests of a non-technical customer for a diverse user group. There were a lot of issues that needed to be fixed and needs that had to be met, and in the end my group was very successful in its efforts. 
+This project was most valuable to me as experience in leading a group and working within the requests of a non-technical customer for a diverse user group. There were a lot of issues that had to be fixed and needs that had to be met, and in the end my group was very successful in its efforts. 
