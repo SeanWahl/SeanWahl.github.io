@@ -2,7 +2,7 @@
 layout: post
 title: power strip holder
 date: 2024-02-12 12:00:00
-description: something to hold my tech
+description: something to hold my power
 categories: 3Dprinting
 thumbnail: assets/img/stripused.jpg
 ---
