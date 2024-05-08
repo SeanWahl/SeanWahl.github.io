@@ -9,7 +9,7 @@ category: school
 
 For my intermediate level mechatronics course, our term project was to duel using autonomous nerf guns across a table. We were given a Nucleo L476RG, an infrared camera, and two motors with encoders. We were left to our own devices to source a nerf gun, make a structure for the system, and write the code for the dueling scenario. 
 
-Though our mechanical design was hasty, it was an advantage because we had more time to tune our system. We designed and manufactured it as a group with most of the structure being wood besides a lazy susan, an aluminum axle, skate bearings, and 3D printed gears/pulleys. We analyzed the system dynamics and ran them in a Jupyter Notebook script to determine a proper gear ratio for the system to turn around quickly but accurately.
+Though our mechanical design was hasty, it was an advantage because we had more time to tune our system. We designed and manufactured it as a group with most of the structure being wood besides a lazy susan, an aluminum axle, skate bearings, and 3D printed gears/pulleys. We analyzed the system dynamics and ran them in a Jupyter Notebook script to determine a proper gear ratio for the system to turn around quickly and accurately.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,12 +38,12 @@ The nerf gun we purchased was electronically activated via a limit switch and wo
     </div>
 </div>
 <div class="caption">
-    Nucleo L476RG interfacing with the two motors. The relay is not visible from this angle. It is of note that the system could not turn 360 degrees without tangling wires.
+    Nucleo L476RG interfacing with the two motors. The relay is not visible from this angle. It is of note that the system could not turn 360 degrees without tangling wires. For the purposes of this competition, it only ever needed to turn ~180 degrees.
 </div>
 
 With the full system set up, it's a good time to mention the rules of the competition. The teams would have a representative at one end of the table, guarded by their nerf turret. Upon a signal, the nerf guns would turn 180 to face the other side of the table. The opponent has 5 seconds to move around on the other side followed by 5 seconds of standing still. 
 
-The infrared cameras we were using took about 0.4 seconds to take a picture when running micropython, so speed tracking was not possible. For this reason, our robot waited until the moving period ended and then tried to shoot them while standing still. Our camera was placed halfway down the table for increased resolution and our system was controlled by a PD controller. If we were running in C we could've likely tracked the target in real time, but this wasn't a possibility with what we were given.
+The infrared cameras we were using took about 0.4 seconds to take a picture when running micropython, so speed tracking was not possible. For this reason, our robot waited until the moving period ended and then tried to shoot the target while standing still. Our camera was placed halfway down the table for increased resolution. Our system would point at the designated target using a PD controller. If we were running in C we could've likely tracked the target in real time, but this wasn't a possibility with what we were given.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
