@@ -128,7 +128,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Project Updates # blog_name will be displayed in your blog page
-blog_description: Rarely used, but this is where I should post major milestones for larger projects and also about smaller projects that don't need a full project page. See full, completed projects <a href="https://seanwahl.github.io/projects/">here</a>.
+blog_description: Instead of an actual blog, this is where I document small projects as well as larger project updates.
 permalink: /blog/:year/:title/
 
 # Pagination
