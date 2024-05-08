@@ -32,6 +32,7 @@ Due to time constraints in the quarter system, none of the class completely fini
 This was my first experience with PCB design and it took some time to get up to speed with using Autodesk's PCB designer. Once learned though, designing the PCB wasn't too bad and taught me a lot about designing electronic systems, reading data sheets, and planning for compatibility. 
 
 Key features of the PCB were:
+
     ---
     • ran using STM32F411CEU6 microcontrol unit
     • 12V to 5V switching regulator
@@ -44,10 +45,10 @@ Key features of the PCB were:
     ---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-4 mt-md-0">
         {% include figure.liquid path="assets/img/hippopcbbare.jpg" title="pcb bare" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-4 mt-md-0">
         {% include figure.liquid path="assets/img/hippopcbassembled.jpg" title="pcb assembled" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -58,6 +59,7 @@ Key features of the PCB were:
 I believe I made two mistakes in the PCB design. The first was that reset pin needed to be grounded to properly use the debugger so we hotwired this connection. The other was that the NMOSFET activating the relay had too high of a resistance to get above the threshold voltage. We were lucky enough to have a spare on hand that had a lower internal resistance to properly activate the relay.
 
 The PCB was designed to be used with:
+
     ---
     • 2 line followers
     • 1 color/proximity sensor
@@ -80,6 +82,8 @@ I wrote code in C for interfacing with all these sensors and actuators and got t
     The wire harness. You can also see the limit switch and follower wheel better from this angle.
 </div>
 
-I'm not proud of the wire harness but considering it was my first time fully designing these connections and making quick fixes, I think it was adequate for the robot.
+I don't think the wire harness was perfect, but considering it was my first time fully designing these connections and making quick fixes, I think it was adequate for the robot.
 
 Overall, I am proud of this project and everything it taught me. With more time, I am confident we could have gotten it working for the competition. I think it is very telling that we did a good job on this considering most people in the class did not get to full robot integration by the end of the quarter.
+
+For solo website portfolio of this project, see <a href="https://seanwahl.github.io/ME-507-Portfolio/index.html">here</a>.
