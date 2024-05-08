@@ -86,4 +86,4 @@ I don't think the wire harness was perfect, but considering it was my first time
 
 Overall, I am proud of this project and everything it taught me. With more time, I am confident we could have gotten it working for the competition. I think it is very telling that we did a good job on this considering most people in the class did not get to full robot integration by the end of the quarter.
 
-For solo website portfolio of this project, see <a href="https://seanwahl.github.io/ME-507-Portfolio/index.html">here</a>.
+For a solo website portfolio of this project, see <a href="https://seanwahl.github.io/ME-507-Portfolio/index.html">here</a>.
